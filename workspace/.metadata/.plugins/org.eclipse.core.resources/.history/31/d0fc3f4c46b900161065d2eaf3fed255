@@ -1,0 +1,16 @@
+package com.psl.calanderclass;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class ExploreCalender {
+	public static void main(String [] args)
+	{
+		Calendar cal=new GregorianCalendar();
+		System.out.println(cal.getTime());
+		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy");
+		System.out.println(sdf.parseObject(cal.getTime().toString()));
+	}
+
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css" media="screen">
+	
+		button{
+			display: block;
+			margin : 5px auto;
+			width :150px
+		}
+		.box{
+			background-color: #000000;
+			height: 400px;
+			width: 400px;
+			border: 2px solid #333333;
+			overflow: auto;
+			margin:  auto;
+			
+		}
+	</style>
+	<script type="text/javascript" charset="utf-8">
+		
+		/**
+		 *
+		  
+		 */
+		
+		//document.addEventListener("DOMContentLoaded")
+	</script>
+</head>
+<body>
+	<button>Add Box</button>
+	<button>Remove first Box</button>
+	<button>Remove last Box</button>
+	<div class="box">
+	  
+	</div>
+</body>
+</html>

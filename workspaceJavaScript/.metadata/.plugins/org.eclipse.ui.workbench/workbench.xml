@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="48" version="2.0">
+<workbenchAdvisor/>
+<window height="994" width="1097" x="141" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="137" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="168" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.json" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.xml" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.text" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1483000686949" focus="true" label="Workspace - Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.js" name="jquery-3.1.1.js" partName="jquery-3.1.1.js" path="C:/workspaceJavaScript/DemoJQuery/lib/jquery-3.1.1.js" title="jquery-3.1.1.js" tooltip="DemoJQuery/lib/jquery-3.1.1.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoJQuery/lib/jquery-3.1.1.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="65" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="C:/workspaceJavaScript/DemoJQuery/index.html" title="index.html" tooltip="DemoJQuery/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoJQuery/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="803" selectionTopPixel="300"/>
+</editor>
+<editor id="com.aptana.editor.html" name="step2jquery.html" partName="step2jquery.html" path="C:/workspaceJavaScript/DemoJQuery/step2jquery.html" title="step2jquery.html" tooltip="DemoJQuery/step2jquery.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoJQuery/step2jquery.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1140" selectionTopPixel="494"/>
+</editor>
+<editor id="com.aptana.editor.html" name="step4attribute.html" partName="step4attribute.html" path="C:/workspaceJavaScript/DemoJQuery/step4attribute.html" title="step4attribute.html" tooltip="DemoJQuery/step4attribute.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoJQuery/step4attribute.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1710" selectionTopPixel="659"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="wrapremovedetach.html" partName="wrapremovedetach.html" path="C:/workspaceJavaScript/DemoJQuery/wrapremovedetach.html" title="wrapremovedetach.html" tooltip="DemoJQuery/wrapremovedetach.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DemoJQuery/wrapremovedetach.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1078" selectionTopPixel="247"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.aptana.snippets.ui.views.SnippetsView" partName="Snippets"/>
+<view id="com.aptana.terminal.views.terminal" partName="Terminal">
+<viewState>
+<title>Terminal</title>
+<workingDirectory>C:\workspaceJavaScript\JSDemo</workingDirectory>
+</viewState>
+</view>
+<view id="com.aptana.terminal.views.terminal:JSDemo" partName="JSDemo">
+<viewState>
+<title>JSDemo</title>
+<workingDirectory>C:\workspaceJavaScript\JSDemo</workingDirectory>
+</viewState>
+</view>
+<view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.aptana.explorer.view" partName="App Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="DemoJQuery">
+<project name="DemoJQuery">
+<selection>
+<element path="/DemoJQuery/wrapremovedetach.html"/>
+</selection>
+</project>
+<project name="JSDemo">
+<selection>
+<element path="/DemoJQuery"/>
+</selection>
+</project>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<show_view_action id="com.aptana.browser.views.webbrowser"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.aptana.ui.io.remoteview"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.samples.ui.SamplesView"/>
+<show_view_action id="com.aptana.snippets.ui.views.SnippetsView"/>
+<show_view_action id="com.aptana.terminal.views.terminal"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.aptana.webserver.ui.view"/>
+<new_wizard_action id="com.aptana.editor.php.NewPHPProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewWebProject"/>
+<new_wizard_action id="com.aptana.ruby.core.ui.rubyProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.aptana.explorer.view"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.aptana.samples.ui.SamplesView"/>
+<view id="com.aptana.snippets.ui.views.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.aptana.terminal.views.terminal"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="com.aptana.terminal.views.terminal:JSDemo"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="com.aptana.explorer.view" label="App Explorer"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="882" ratioRight="294" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.14578408" ratioLeft="185" ratioRight="1084" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.79909706" ratioLeft="708" ratioRight="178" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.aptana.terminal.views.terminal" label="Terminal"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="com.aptana.terminal.views.terminal:JSDemo" label="JSDemo"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4b3f8b" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.aptana.samples.ui.SamplesView" label="Samples"/>
+<page content="com.aptana.snippets.ui.views.SnippetsView" label="Snippets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/demoQUNIT/index.html"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/Users/Administrator/Desktop/qunit-2.0.1.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" uri="file:/C:/Users/Administrator/Desktop/qunit-2.0.1.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/DemoJQuery/lib/jquery-3.1.1.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/DemoJQuery/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/DemoJQuery/step2jquery.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/DemoJQuery/step4attribute.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/DemoJQuery/wrapremovedetach.html"/>
+</editors>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="817" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1023" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="878" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="1017" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="883" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="932" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="917" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="931" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="777" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="qunit-2.0.1.css" index="1">
+<position info="not_deleted" x="112" y="1"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="qunit-2.0.1.css" index="2">
+<position info="not_deleted" x="112" y="1"/>
+</item>
+<item historyLabel="jquery-3.1.1.js" index="3">
+<position info="not_deleted" x="65" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="4703" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="549" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="jquery-3.1.1.js" index="3">
+<position info="not_deleted" x="65" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="1389" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="1391" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="1480" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="803" y="0"/>
+</item>
+<item historyLabel="step2jquery.html" index="5">
+<position info="not_deleted" x="1140" y="0"/>
+</item>
+<item historyLabel="step4attribute.html" index="6">
+<position info="not_deleted" x="1710" y="0"/>
+</item>
+<item active="true" historyLabel="wrapremovedetach.html" index="7">
+<position info="not_deleted" x="1078" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4b3f8b"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="terminalArea"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="wrapremovedetach.html" tooltip="DemoJQuery/wrapremovedetach.html">
+<persistable path="/DemoJQuery/wrapremovedetach.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step4attribute.html" tooltip="DemoJQuery/step4attribute.html">
+<persistable path="/DemoJQuery/step4attribute.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step2jquery.html" tooltip="DemoJQuery/step2jquery.html">
+<persistable path="/DemoJQuery/step2jquery.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="DemoJQuery/index.html">
+<persistable path="/DemoJQuery/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="jquery-3.1.1.js" tooltip="DemoJQuery/lib/jquery-3.1.1.js">
+<persistable path="/DemoJQuery/lib/jquery-3.1.1.js"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="qunit-2.0.1.css" tooltip="C:\Users\Administrator\Desktop\qunit-2.0.1.css">
+<persistable uri="file:/C:/Users/Administrator/Desktop/qunit-2.0.1.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="demoQUNIT/index.html">
+<persistable path="/demoQUNIT/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.json" name="data.json" tooltip="Demo/data/data.json">
+<persistable path="/Demo/data/data.json"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="ajaxDemoMoustache.html" tooltip="Demo/ajaxDemoMoustache.html">
+<persistable path="/Demo/ajaxDemoMoustache.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step-26.html" tooltip="JSDemo/step-26.html">
+<persistable path="/JSDemo/step-26.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="bonus.html" tooltip="JSDemo/bonus.html">
+<persistable path="/JSDemo/bonus.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.text" name="data.txt" tooltip="JSDemo/data/data.txt">
+<persistable path="/JSDemo/data/data.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step-29-ajax.html" tooltip="JSDemo/step-29-ajax.html">
+<persistable path="/JSDemo/step-29-ajax.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step26.html" tooltip="JSDemo/step26.html">
+<persistable path="/JSDemo/step26.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="step-25.html" tooltip="JSDemo/step-25.html">
+<persistable path="/JSDemo/step-25.html"/>
+</file>
+</mruList>
+</workbench>

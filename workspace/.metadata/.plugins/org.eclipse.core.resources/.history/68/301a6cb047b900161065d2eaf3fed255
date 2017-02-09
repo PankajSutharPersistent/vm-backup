@@ -1,0 +1,14 @@
+package com.psl.calanderclass;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class ExploreCalender {
+	public static void main(String [] args)
+	{
+		Calendar cal=new GregorianCalendar().getInstance();
+		System.out.println(cal.getTime());
+		
+	}
+
+}

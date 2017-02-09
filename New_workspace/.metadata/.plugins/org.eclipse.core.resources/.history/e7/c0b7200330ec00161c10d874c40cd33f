@@ -1,0 +1,15 @@
+package com.psl.ds1.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//spring container
+		ApplicationContext context=new ClassPathXmlApplicationContext("config.xml");
+
+	}
+
+}

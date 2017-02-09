@@ -1,0 +1,54 @@
+package com.psl.ds1.bean;
+
+public class Employee {
+	private String name;
+	private int age;
+	private Address addr;
+	public Employee() {
+		super();
+		System.out.println("In Employee -> Constructor");
+
+	}
+	public Employee(String name, int age, Address addr) {
+		super();
+		System.out.println("In Employee -> Parameterized Constructor");
+
+		this.name = name;
+		this.age = age;
+		this.addr = addr;
+	}
+	public String getName() {
+
+		return name;
+	}
+	public void setName(String name) {
+		System.out.println("In Employee ->setname");
+
+		this.name = name;
+	}
+	public int getAge() {
+
+		return age;
+	}
+	public void setAge(int age) {
+		System.out.println("In Employee ->setage");
+
+		this.age = age;
+	}
+	public Address getAddr() {
+		return addr;
+	}
+	public void setAddr(Address addr) {
+		System.out.println("In Employee ->setAddr");
+
+		this.addr = addr;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		String s=name+"  "+age+"  "+addr;
+		return super.toString();
+	}
+	
+	
+}

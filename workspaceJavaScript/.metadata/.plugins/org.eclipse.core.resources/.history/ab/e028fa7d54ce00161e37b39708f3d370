@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css" media="screen">
+		#box{
+			
+			height :500px;
+			background-color: #000000;
+			overflow: auto;	
+		}
+		 #box r{
+		 	height: 50px;
+		 	width: 50px;
+		 	margin: 5px;
+		 	float: left;
+		 	background-color: red;
+		 }
+		 #box b{
+		 	height: 50px;
+		 	width: 50px;
+		 	margin: 5px;
+		 	float: left;
+		 	background-color: blue;
+		 }
+		 #box g{
+		 	height: 50px;
+		 	width: 50px;
+		 	margin: 5px;
+		 	float: left;
+		 	background-color: green;
+		 }
+		 #box y{
+		 	height: 50px;
+		 	width: 50px;
+		 	margin: 5px;
+		 	float: left;
+		 	background-color: yellow;
+		 }
+		 
+		 
+	</style>
+	<script type="text/javascript" charset="utf-8">
+		var elm={
+			create:function(cT,id){
+				var id=id || genUid();
+				
+				var elm=document.createElement(cT);
+				elm.innerHTML=id;
+				return elm;
+			}
+			
+			return{
+				
+			}
+		};
+		
+		function genUid(){
+			var id=Math.round(Math.random()*255);
+			return id;
+			
+		}
+		
+		window.onload=function(){
+			document.getElementById("addButton").addEventListener("click",function(){
+				var str=document.getElementById("colorType").value;
+				var id=document.getElementById("someID").value;
+
+				document.getElementById("box").appendChild(elm.create(str,id));
+			});
+			
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="colorType"/>
+	<input type="text" id="someID"/>
+	<button id="addButton">Add Box</button>
+	<button id="intruder">Interruder</button>
+	<hr />
+	<div id="box">
+	  
+	</div>
+</body>
+</html>

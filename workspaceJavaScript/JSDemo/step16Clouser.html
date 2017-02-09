@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script>
+		 var displayMessage=function(count){
+		 	return function(message){
+		 		var content="";
+		 		for(var i=0;i<count;i++)
+		 		{
+		 			content += message+"<br />"
+		 		}
+		 		return content;
+		 	}
+		 	
+		 	
+		 };
+		 
+		 var dm=displayMessage(5);
+		 
+		 window.onload=function(){
+		 	
+		 	document.body.innerHTML +=dm("Welcome");
+		 }
+		
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

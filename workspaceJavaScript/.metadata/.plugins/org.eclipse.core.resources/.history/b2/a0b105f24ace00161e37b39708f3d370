@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		
+		function withoutClosure(){
+			var date=new Date();
+			return date.getMilliseconds();
+		};
+		
+		function withClosure(){
+			var date=new Date();
+			return function(){
+			return date.getMilliseconds();
+			}
+		};
+		
+		document.addEventListener("DOMContentLoaded",function(){
+			
+			
+			
+			
+		});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Ajax</title>
+	<style>
+		.box{
+			width: 450px;
+			height: 200px;
+			background-color: #333333;
+			color: white;
+			font-family: arial;
+			text-align: justify;
+			padding: 5px;
+			overflow: auto;
+			margin: auto;
+		}
+		button{
+			width: 450px;
+			margin: 10px auto;
+			display: block;
+			padding: 5px;			
+		}
+		.product{
+			width: 150px;
+			background-color: #666666;
+		}
+	
+		.product h1,h4,h3{
+			margin: 0px;
+			background-color: silver;
+			color: #333333;
+			font-family: arial;
+			text-align: center;
+		}
+		.product img{
+			width: 100%;
+		}
+		.product input{
+			width: 97%;
+		}
+	</style>
+	<script>
+	/*
+	 * XMLP
+	 * JSONP
+	 */
+		var xhr = new XMLHttpRequest();
+			// xhr.onreadystatechange;
+			xhr.addEventListener("readystatechange", changeHandler)
+		window.onload = function(){
+			document
+			.querySelector("button")
+			.addEventListener("click", clickHandler);
+		};
+		function clickHandler(){
+			xhr.open("get","data/data.xml", true);
+			// xhr.open("get","http://www.w3schools.com/xml/cd_catalog.xml", true);
+			xhr.send();
+		}
+		function changeHandler(){
+			if(xhr.readyState == 4 && xhr.status == 200){				
+			console.log(xhr.readyState);
+			// document.getElementsByClassName("box")[0].innerHTML += xhr.responseXML+" : "+xhr.readyState+"<hr/>";
+			var data = xhr.responseXML;
+			var value = data.getElementsByTagName("hero");
+			// document.getElementsByClassName("box")[0].innerHTML += value[0].firstChild.nodeValue;
+			var cb = document.getElementById("cb");
+			var box=document.getElementsByClassName("box")[0];
+			
+			for(var i = 0; i < value.length; i++ ){
+				var title=document.getElementByTagName("title")[i].textContent;
+				var fn=document.getElementByTagName("firstname")[i].textContent;
+				var ln=document.getElementByTagName("lastname")[i].textContent;
+				var city=document.getElementByTagName("city")[i].textContent;
+				var power=document.getElementByTagName("power")[i].textContent;
+				var photo=document.getElementByTagName("photo")[i].textContent;
+					//cb.innerHTML+="<option>"+value[i].textContent+"</option>"
+					box.innerHTML+="<div class='product'><h1>"+ title+"<img src="+photo+" /><input type='range' value='"+power+"' min='0' max='10' /><h4> <span>"+fn+"</span> <span>"+ln+"</span></h4><h3> "+city+"</h3></h1></div>"
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<button>Get Data</button>
+	<div class="box"></div>
+	<!--select id="cb"></select-->
+	<div class="product">
+		<h1>Batman</h1>
+		<img  src='images/batman.jpg' />
+		<input type='range' value='7' min='0' max='10' />
+		<h4> <span>Bruce</span> <span>Wayne</span></h4>
+		<h3> Gotham </h3>
+	</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+package com.psl.practice;
+
+public class Practice extends Thread {
+	
+	
+	public static void main(String[] args) {
+	
+		String a="Pankaj";
+		System.out.println(a.charAt(0)>a.charAt(2));
+		
+		
+	}
+}
+                      

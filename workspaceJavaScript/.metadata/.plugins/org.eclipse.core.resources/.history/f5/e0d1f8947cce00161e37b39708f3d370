@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		window.onload=function(){
+			document.getELementById("clickButton").addEventListener("click",clickhandler);
+			
+		};
+		
+		function clickhandler(){
+			alert(evt.target.innerHTML)
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

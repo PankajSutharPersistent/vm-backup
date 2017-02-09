@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script src="lib/jquery-3.1.1.js"></script>
+	<script>
+	/*
+		var vj = jQuery.noConflict();
+		vj(function(){
+			///=========================
+			
+			alert("welcome to 2017")
+			
+			///=========================
+		})
+	 */
+		$(function(){
+			///=========================
+			
+			// $("li","ul").css("border","2px solid red");
+			// $("#list").css("border","2px solid red");
+			// $(".items").css("border","2px solid green");
+			// $(".items","#list").css("border","2px solid green");
+			// $("#list .items").css("border","2px solid green");
+			
+			   $("p[onclick='fun3()']").css("border","2px solid green");
+			
+			///=========================
+		})
+	</script>
+</head>
+<body>
+	<ul id="list">
+		<li class="items">List Item 1</li>
+		<li class="items">List Item 2</li>
+		<li class="items">List Item 3</li>
+		<li class="items">List Item 4</li>
+		<li class="items">List Item 5</li>
+	</ul>
+	<hr/>
+	<ul>
+		<li class="items">List Item 1</li>
+		<li class="items">List Item 2</li>
+		<li class="items">List Item 3</li>
+		<li class="items">List Item 4</li>
+		<li class="items">List Item 5</li>
+	</ul>
+	
+	<li class="items">List Item 1</li>
+	<li class="items">List Item 2</li>
+	<li class="items">List Item 3</li>
+	<li class="items">List Item 4</li>
+	<li class="items">List Item 5</li>
+	
+	<p onclick="fun1()">
+		<h1></h1>
+		<h2></h2>
+		<h3></h3>
+		<h4></h4>
+		<h5></h5>
+		<h6></h6>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p onclick="fun2()">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p onclick="fun3()">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p onclick="fun4()">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p title="persistent">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p lang="en">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</body>
+</html>

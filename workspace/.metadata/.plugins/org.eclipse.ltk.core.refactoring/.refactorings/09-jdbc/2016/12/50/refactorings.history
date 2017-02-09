@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Contact.java&apos; to &apos;AnnotationDEmo/src/com.psl.entity&apos;&#x0D;&#x0A;- Original project: &apos;09-jdbc&apos;&#x0D;&#x0A;- Destination element: &apos;AnnotationDEmo/src/com.psl.entity&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.beans.Contact.java&apos;" description="Copy compilation unit" destination="=AnnotationDEmo/src&lt;com.psl.entity" element1="/src&lt;com.psl.beans{Contact.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1481016652742" units="1" version="1.0"/>
+</session>

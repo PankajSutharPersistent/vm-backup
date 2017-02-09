@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+	var arr=[100,200,300,400,500,600,700,800,900];
+		/*arr.forEach(function convertor (value,iterator,arr) {
+			arr[iterator]="INR"+" "+value;
+  
+		});
+		console.log(arr);
+		
+		*/
+		Array.prototype.toCur=function(s){
+			var vals="";
+			for(var i=0;i<this.length;i++){
+				vals+= s+ " "+this[i]+"\n";
+			}
+			return vals;
+		};
+		console.log(arr.toCur("Rs."));
+		console.log(arr.toCur("$ "));
+		
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

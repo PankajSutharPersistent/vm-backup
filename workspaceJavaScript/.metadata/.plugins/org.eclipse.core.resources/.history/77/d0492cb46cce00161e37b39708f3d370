@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		window.onload=function(){
+			
+			//alert(document.getElementsByTagName("body")[0].childNodes.length);
+                     //alert(document.getElementsByTagName("body")[0].children.length);
+                     // alert(document.body.children[0].children[0].innerHTML);
+                     // alert(document.getElementsByTagName("li")[0].innerHTML);
+                     // alert(document.querySelector("li").innerHTML);
+                     // alert(document.querySelectorAll("li")[0].innerHTML);
+                    
+                    //document.querySelectorAll("li")[1].style="border:2px solid red"
+                    document.querySelectorAll("li")[1].style.border="2px solid red"
+
+		};
+	</script>
+</head>
+<body>
+	<ul id="list">
+	<li class="item1">List Item 1</li>
+	<li class="item1">List Item 2</li>
+	<li class="item1">List Item 3</li>
+	<li class="item1">List Item 4</li>
+	<li class="item1">List Item 5</li>
+	</ul>
+	                 
+	<p>Paragraph 1</p>
+	<p>Paragraph 2</p>
+	<p>Paragraph 3</p>
+</body>
+</html>

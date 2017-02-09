@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ParameteraisedFactorialTest.java&apos; to &apos;BankAssignment-JUnit/Test/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;10-UnitTesting&apos;&#x0D;&#x0A;- Destination element: &apos;BankAssignment-JUnit/Test/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.test.ParameteraisedFactorialTest.java&apos;" description="Copy compilation unit" destination="=BankAssignment-JUnit/Test&lt;" element1="/test&lt;com.psl.test{ParameteraisedFactorialTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1481284844165" units="1" version="1.0"/>
+</session>

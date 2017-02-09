@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		var mod=(function(){
+			
+		var fname="Pankaj";
+		var lname="Suthar";
+		
+		return
+		{
+			fn : fname
+		}	
+			
+		}());
+		console.log(mod.fn)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

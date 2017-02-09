@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSDemo/step16Clouser.htm&apos; to &apos;step16Clouser.html&apos;" description="Rename resource &apos;step16Clouser.htm&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="step16Clouser.htm" name="step16Clouser.html" stamp="1483012132347" updateReferences="true"/>
+</session>

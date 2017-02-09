@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		window.onload=function(){
+			van btns=document.getElementsByTagName("button");
+			for(var i=0;i<btns.lenth;i++){
+				
+			}
+		}
+	</script>
+</head>
+<body>
+	<button>Button 1</button>
+	<button>Button 2</button>
+	<button>Button 3</button>
+	<button>Button 4</button>
+	<button>Button 5</button>
+</body>
+</html>

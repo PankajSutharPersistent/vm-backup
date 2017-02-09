@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Event Flow</title>
+	<style>
+		.outerbox{
+			width: 500px;
+			height: 200px;
+			background-color: #333333;
+			margin: auto;
+			border: 1px solid transparent;
+		}
+		.innerbox{
+			width: 250px;
+			height: 100px;
+			background-color: #666666;
+			margin: 50px auto;
+			border: 1px solid transparent;
+		}
+		.innerbox button{
+			width: 100px;
+			height: 50px;
+			background-color: #cecece;
+			margin: 25px auto;
+			display: block;
+		}
+		#lab{
+			width: 200px;
+			margin: auto;
+		}
+	</style>
+	<script>
+		window.onload = function(){
+			document.getElementById("outerbox").addEventListener("click", outerBoxClickHandler, true );
+			document.getElementById("outerbox").addEventListener("click", clickHandler, false );
+			
+			document.getElementById("innerbox").addEventListener("click", clickHandler, true );
+			document.getElementById("innerbox").addEventListener("click", clickHandler, false );
+			
+			document.getElementById("clickbutton").addEventListener("click", clickHandler );
+		};
+		function clickHandler(evt){
+			// alert(evt.target.innerHTML);
+			console.log(evt.currentTarget.id)
+		}
+		function outerBoxClickHandler(evt){
+			// alert(evt.target.innerHTML);
+			if(document.getElementById("cb").checked){
+				evt.stopPropagation();
+				console.log("event was stopped by" + evt.currentTarget.id)
+			}else{
+				console.log(evt.currentTarget.id)
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="lab">
+		<label>I dont Agree <input id="cb" type="checkbox" /></label>
+	</div>
+	<hr/>
+	<div class="box">
+		
+	</div>
+	<div id="outerbox" class="outerbox">
+		<div id="innerbox" class="innerbox">
+			<button id="clickbutton">Click Button</button>
+		</div>
+	</div>
+</body>
+</html>

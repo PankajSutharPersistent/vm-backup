@@ -1,0 +1,31 @@
+package com.learn2drive.main;
+
+import com.learn2drive.bean.Car;
+import com.learn2drive.bean.SUV;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Car i10;
+		Car baleno;
+		Car Creta;
+		
+		baleno=new Car();
+		i10=new Car("Hyundai","i-20","Bright Red");
+		Creta=new SUV("Hyundai", "Creta", "White",true);
+		
+		baleno.setMake("Maruti");
+		baleno.setModel("Baleno");
+		baleno.setColor("Navy Blue");
+		
+		
+		
+		System.out.println(i10.getMake());
+		System.out.println(i10.getModel());
+		System.out.println(i10.getColor());
+		System.out.println(Creta);
+		
+
+	}
+
+}

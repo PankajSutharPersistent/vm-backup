@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		
+		function withoutClosure(){
+			var date=new Date();
+			return date.getMilliseconds();
+		};
+		
+		function withClosure(){
+			var date=new Date();
+			return function(){
+			return date.getMilliseconds();
+			}
+		};
+		
+		document.addEventListener("DOMContentLoaded",function(){
+			
+			var count1=1;
+			var count2=1;
+			
+			var box1=document.getElementById("box1");
+			var box2=document.getElementById("box2");
+			
+			var si1=setInterval(function(){
+				var wc=withClosure();
+				if(count1<5)
+				{
+					box1.innerHTML +="<h1>"+wc()+"</h1>"
+				}
+				else
+				{
+					clearInterval(si1);
+				}
+			});
+			var si2=setInterval(function(){
+				var wc=withoutClosure();
+				if(count2<5)
+				{
+					box2.innerHTML +="<h1>"+wc()+"</h1>"
+					count++;
+				}
+				else
+				{
+					clearInterval(si2);
+				}
+			});
+			
+			
+		});
+	</script>
+</head>
+<body>
+	<div id="box1"></div>
+	<hr />
+	<div id="box"></div>
+	
+</body>
+</html>

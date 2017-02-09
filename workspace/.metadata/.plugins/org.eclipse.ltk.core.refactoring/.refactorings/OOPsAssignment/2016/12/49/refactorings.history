@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ExceptionHandlingAssignment/src/com.psl.contact.validation&apos;&#x0D;&#x0A;- Original project: &apos;OOPsAssignment&apos;&#x0D;&#x0A;- Destination element: &apos;ExceptionHandlingAssignment/src/com.psl.contact.validation&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.psl.contactinfo.Contact.java&#x0D;&#x0A;     com.psl.contactinfo.Gender.java" description="Copy compilation units" destination="=ExceptionHandlingAssignment/src&lt;com.psl.contact.validation" element1="/src&lt;com.psl.contactinfo{Contact.java" element2="/src&lt;com.psl.contactinfo{Gender.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1480595878183" units="2" version="1.0"/>
+</session>

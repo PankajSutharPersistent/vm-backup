@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Ajax</title>
+	<style>
+		.box{
+			width: 450px;
+			height: 200px;
+			background-color: #333333;
+			color: white;
+			font-family: arial;
+			text-align: justify;
+			padding: 5px;
+			overflow: auto;
+			margin: auto;
+		}
+		button{
+			width: 450px;
+			margin: 10px auto;
+			display: block;
+			padding: 5px;			
+		}
+	</style>
+	<script>
+		var xhr = new XMLHttpRequest();
+			// xhr.onreadystatechange;
+			xhr.addEventListener("readystatechange", changeHandler)
+		window.onload = function(){
+			document
+			.querySelector("button")
+			.addEventListener("click", clickHandler);
+		};
+		function clickHandler(){
+			xhr.open("get","data/data.txt", false);
+			xhr.send();
+		}
+		function changeHandler(){
+			console.log(xhr.readyState);
+			document.getElementsByClassName("box")[0].innerHTML += xhr.responseText;
+		}
+	</script>
+</head>
+<body>
+	<button>Get Data</button>
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<heroes>
+	<hero>
+		<firstname>Bruce</firstname>
+		<lastname>Wayne</lastname>
+		<title>Batman</title>
+		<photo>images/batman.jpg</photo>
+		<power>7</power>
+		<city>Gotham</city>
+	</hero>
+	<hero>
+		<firstname>Peter</firstname>
+		<lastname>Parker</lastname>
+		<title>Spiderman</title>
+		<photo>images/spiderman.jpg</photo>
+		<power>6</power>
+		<city>New York</city>
+	</hero>
+	<hero>
+		<firstname>Clark</firstname>
+		<lastname>Kent</lastname>
+		<title>Superman</title>
+		<photo>images/superman.jpg</photo>
+		<power>8</power>
+		<city>Metropolis</city>
+	</hero>
+	<hero>
+		<firstname>Tony</firstname>
+		<lastname>Stark</lastname>
+		<title>Ironman</title>
+		<photo>images/ironman.jpg</photo>
+		<power>7</power>
+		<city>New York</city>
+	</hero>
+	<hero>
+		<firstname>Kit</firstname>
+		<lastname>Walker</lastname>
+		<title>Phantom</title>
+		<photo>images/phantom.jpg</photo>
+		<power>7</power>
+		<city>Bhangala</city>
+	</hero>
+</heroes>

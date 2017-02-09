@@ -1,0 +1,8 @@
+package com.psl.ds1.bean;
+
+public class Address {
+	private String name;
+	private int age;
+	private Address addr;
+
+}

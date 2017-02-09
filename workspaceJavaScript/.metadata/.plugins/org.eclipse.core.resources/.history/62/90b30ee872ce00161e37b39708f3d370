@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		window.onload=function(){
+			van btns=document.getElementsByTagName("button");
+			for(var i=0;i<btns.lenth;i++){
+				
+			}
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

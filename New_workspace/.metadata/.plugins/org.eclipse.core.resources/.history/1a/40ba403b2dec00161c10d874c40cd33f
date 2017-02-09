@@ -1,0 +1,5 @@
+package com.psl.ds1.bean;
+
+public class Employee {
+
+}

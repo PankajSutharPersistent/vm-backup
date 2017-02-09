@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" charset="utf-8">
+		var str="Pankaj";//primitive data type
+		
+		str.name="PankajSuthar";// output undefined as it is not object
+		console.log(str+"       "+str.name);
+		
+		var strThisIsObject=new String("This is object");
+		console.log(strThisIsObject);
+		
+		function functionIsAlwaysObject(){
+			
+			return "from function";
+		}
+		functionIsAlwaysObject.aname="Here";
+		
+		console.log(functionIsAlwaysObject);
+		console.log(functionIsAlwaysObject.aname);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
