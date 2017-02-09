@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1485837489357
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837489357
+java.vm.specification.version,sysinfo,,,"1.0",1485837489357
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1485837489357
+java.vm.version,sysinfo,,,"19.1-b02",1485837489357
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1485837489430
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1485837489431
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1485837489433
+started,bundle,org.eclipse.jst.jsf.common,1.1.5.v20090505,"org.eclipse.jst.jsf.common",1485837489520
+started,bundle,org.eclipse.jst.jsf.core,1.2.0.v20090514,"org.eclipse.jst.jsf.core",1485837489530
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.0.v200906080500,"org.eclipse.jst.common.project.facet.core",1485837489610
+started,bundle,org.eclipse.mylyn.team.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.team.ui",1485837489623
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1485837489676
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1485837489792
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1485837489792
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837494057
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837513209
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837513830
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837517694
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837518261
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1485837576367
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1485837580143
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1485837582523
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1485837584652
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1485837584653

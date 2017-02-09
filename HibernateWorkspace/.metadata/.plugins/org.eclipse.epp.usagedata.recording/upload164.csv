@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1486012963300
+java.version,sysinfo,,,"1.6.0_24",1486012963300
+java.vm.info,sysinfo,,,"mixed mode, sharing",1486012963300
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1486012963300
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1486012963300
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1486012963300
+java.vm.specification.version,sysinfo,,,"1.0",1486012963300
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1486012963300
+java.vm.version,sysinfo,,,"19.1-b02",1486012963300
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1486012963564
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1486012964014
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1486012964240
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.0.v200906080500,"org.eclipse.jst.common.project.facet.core",1486012964595
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.monitor.ui",1486012964775
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1486012965146
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1486012965625
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProblemView",1486012970628
+started,bundle,org.eclipse.mylyn.java.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.java.ui",1486012971720
+started,bundle,org.eclipse.pde.api.tools,1.0.100.v20090526,"org.eclipse.pde.api.tools",1486012972094
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.100.v20090526,"org.eclipse.pde.api.tools.ui",1486012972097
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1486012972640
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1486012977733
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1486013042820
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.text.contentAssist.proposals",1486013044524
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1486013052178

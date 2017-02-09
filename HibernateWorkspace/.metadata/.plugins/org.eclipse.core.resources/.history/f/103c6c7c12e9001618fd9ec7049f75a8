@@ -1,0 +1,9 @@
+package com.psl.bean;
+
+public class Account {
+
+	private int accountId;
+	private double balance;
+	private User owner;
+	
+}

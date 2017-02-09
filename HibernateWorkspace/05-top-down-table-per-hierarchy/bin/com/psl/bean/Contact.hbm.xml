@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 31, 2017 2:11:34 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.psl.bean.Contact" table="tbl_contacts_05">
+        <id name="contactId" type="int">
+            <column name="CONTACTID" />
+            <generator class="identity" />
+        </id>
+        <discriminator column="CONTACT_TYPE" type="string"></discriminator>
+        <property name="firstname" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="dateOfBirth" type="java.sql.Date">
+            <column name="DATEOFBIRTH" />
+        </property>
+     <component name="address">
+     	<property name="city">
+     	</property>
+     	<property name="country"></property>
+     </component>
+     
+     <subclass name="com.psl.bean.Employee" discriminator-value="EMP">
+     <property name="employeeCode" column="EMPLOYEE_CODE"></property>
+     <property name="desigation" column="DESIGNATION"></property>
+     </subclass>
+     
+     
+     <subclass name="com.psl.bean.Friends" discriminator-value="FRND">
+     <property name="petName" column="PET_NAME"></property>
+     </subclass>
+     
+     <subclass name="com.psl.bean.Relative" discriminator-value="RLTV">
+     <property name="relation" column="RELATION"></property>
+     </subclass>
+    </class>
+</hibernate-mapping>

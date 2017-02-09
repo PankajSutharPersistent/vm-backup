@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.psl.bean.Contact.mobileNumbers&apos; in &apos;com.psl.bean.Contact&apos;&#x0D;&#x0A;- Original project: &apos;07-composition-maping&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.bean.Contact.mobileNumbers&apos;&#x0D;&#x0A;- Getter method name: &apos;getMobileNumbers&apos;&#x0D;&#x0A;- Setter method name: &apos;setMobileNumbers&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;mobileNumbers&apos;" flags="589830" getter="getMobileNumbers" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.psl.bean{Contact.java[Contact^mobileNumbers" insertion="13" setter="setMobileNumbers" stamp="1485924612962" version="1.0" visibility="1"/>
+</session>

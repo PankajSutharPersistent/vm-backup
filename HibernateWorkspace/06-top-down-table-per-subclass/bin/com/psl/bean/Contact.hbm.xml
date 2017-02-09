@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 31, 2017 2:11:34 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.psl.bean.Contact" table="tbl_contactsBy06">
+        <id name="contactId" type="int">
+            <column name="CONTACTID" />
+            <generator class="identity" />
+        </id>
+        <property name="firstname" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="dateOfBirth" type="java.sql.Date">
+            <column name="DATEOFBIRTH" />
+        </property>
+     <component name="address">
+     	<property name="city">
+     	</property>
+     	<property name="country"></property>
+     </component>
+     
+     <joined-subclass name="com.psl.bean.Employee" table="06Employee" >
+     <key column="EMP_CONTACT_ID"></key>
+     <property name="employeeCode" column="EMPLOYEE_CODE"></property>
+     <property name="desigation" column="DESIGNATION"></property>
+     </joined-subclass>
+     
+     
+     <joined-subclass name="com.psl.bean.Friends" table="06Friends">
+          <key column="FRND_CONTACT_ID"></key>
+     
+     <property name="petName" column="PET_NAME"></property>
+     </joined-subclass>
+     
+     <joined-subclass name="com.psl.bean.Relative" table="06Relative">
+          <key column="REL_CONTACT_ID"></key>
+     
+     <property name="relation" column="RELATION"></property>
+     </joined-subclass>
+    </class>
+</hibernate-mapping>

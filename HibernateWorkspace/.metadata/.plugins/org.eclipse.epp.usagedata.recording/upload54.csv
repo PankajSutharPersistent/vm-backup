@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1485851986538
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1485851986538
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1485851986539
+started,bundle,org.eclipse.wst.dtd.ui,1.0.400.v200904300717,"org.eclipse.wst.dtd.ui",1485851986540
+started,bundle,org.eclipse.wst.sse.core,1.1.400.v200905141750,"org.eclipse.wst.sse.core",1485851986541
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1485851986542
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1485851986542
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1485851986543
+started,bundle,org.eclipse.wst.xml.core,1.1.400.v200904300540,"org.eclipse.wst.xml.core",1485851986544
+started,bundle,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui",1485851986544
+started,bundle,org.eclipse.wst.xsl.core,1.0.0.v200905071815,"org.eclipse.wst.xsl.core",1485851986545
+started,bundle,org.hibernate.eclipse,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse",1485851986545
+started,bundle,org.hibernate.eclipse.console,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse.console",1485851986553
+started,bundle,org.hibernate.eclipse.mapper,3.3.1.v201006011046R-H111-GA,"org.hibernate.eclipse.mapper",1485851986566
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator",1485851986567
+os,sysinfo,,,"win32",1485851986605
+arch,sysinfo,,,"x86",1485851986605
+ws,sysinfo,,,"win32",1485851986605
+locale,sysinfo,,,"en_US",1485851986605
+processors,sysinfo,,,"1",1485851986605
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1485851986605
+java.runtime.version,sysinfo,,,"1.6.0_24-b07",1485851986605
+java.specification.name,sysinfo,,,"Java Platform API Specification",1485851986605
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1485851986605
+java.specification.version,sysinfo,,,"1.6",1485851986605

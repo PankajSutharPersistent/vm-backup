@@ -1,0 +1,152 @@
+package com.psl.main;
+
+import java.sql.Date;
+import java.util.Iterator;
+import java.util.List;
+
+
+import org.hibernate.Criteria;
+import org.hibernate.FetchMode;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Conjunction;
+import org.hibernate.criterion.Disjunction;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.ProjectionList;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+
+import com.psl.bean.Account;
+
+import com.psl.bean.User;
+
+public class Main {
+
+	/** 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		User u1=new User("Warren Buffet");
+		User u2=new User("Ratan Tata");
+
+		User u3=new User("Larry Page");
+
+		User u4=new User("Mukesh Ambani");
+
+		User u5=new User("Elon  Musk");
+		
+		
+		u1.addAccount(new Account(1236.252));
+		u1.addAccount(new Account(856.32));
+
+		u2.addAccount(new Account(2323.32));
+		u2.addAccount(new Account(45555.96));
+		u2.addAccount(new Account(253.32));
+
+		u3.addAccount(new Account(1236.785));
+
+		u4.addAccount(new Account(66.25));
+		u4.addAccount(new Account(12122.989));
+
+
+		
+		Configuration configuration=new Configuration().configure();
+	    SessionFactory sessionFactory=configuration.buildSessionFactory();	
+	    Session session=sessionFactory.openSession();
+	    Transaction transaction;
+	   
+	    transaction=session.beginTransaction();
+	    
+	    //-------------begin transaction
+	    
+	    session.persist(u1);
+	    session.persist(u2);
+	    session.persist(u3);
+	    session.persist(u4);
+	    session.persist(u5);
+	    
+	    
+	    //-------------end transaction
+	    transaction.commit();
+	   System.out.println("--------------------------list()-------------------");
+	   Criteria criteria=session.createCriteria(User.class);
+	/*   List<User> usr_lst=criteria.list();
+	   criteria.setFirstResult(0);
+	   criteria.setMaxResults(2);
+	   for(User user:usr_lst)
+	   {
+		   System.out.println(user.getFullName());
+		   
+	   }*/
+	   System.out.println("-----------------------Restriction----------------------------------------------------");
+	   
+	   criteria=session.createCriteria(Account.class);
+	  // criteria.add(Restrictions.le("balance", 1000.0));
+	   Conjunction c=Restrictions.conjunction();
+	   c.add(Restrictions.gt("balance", 500.00));
+	   c.add(Restrictions.le("balance", 1000.00));
+	   
+	   Disjunction d=Restrictions.disjunction();
+	   d.add(Restrictions.gt("balance", 500.00));
+	   d.add(Restrictions.le("balance", 1000.00));
+	   
+	   
+	   criteria.add(d);
+	   List<Account> acs_lst=criteria.list();
+	   for(Account account: acs_lst)
+	   {
+		   System.out.println(account.getBalance()+"---------------------");
+	   }
+	   session.clear();
+	   System.out.println("-----------------------------------------------------------------------------------------------------------");
+	   criteria=session.createCriteria(User.class);
+	   criteria.createCriteria("accounts")
+	   			.add(Restrictions.gt("balance", 500.00))
+	   			.setFetchMode("accounts", FetchMode.JOIN);
+	   
+	   List<User> usr_lst=criteria.list();
+	   
+	   for(User user:usr_lst)
+	   {
+		   System.out.println(user.getFullName());
+		   for(Account a: user.getAccounts())
+		   {
+			   System.out.println(a.getBalance()+"------------------Balnce Here");
+		   }
+		   System.out.println("Next USer============");
+	   }
+	   System.out.println("---------------------------------Projection------------------------------");
+	/*   criteria=session.createCriteria(User.class);
+	   ProjectionList pl=Projections.projectionList();
+	   pl.add(Projections.property("fullName"));
+	   pl.add(Projections.property("a.balance"));
+	   criteria.setProjection(pl)
+	   		   .createAlias("accounts", "a");
+	   
+	   List<Object[]> obj_arr=criteria.list();
+	   for(Object [] objects:obj_arr)
+	   {
+		System.out.println(objects[0]+"-----------------------"+objects[1]);   
+	   }*/
+	   
+	   criteria=session.createCriteria(User.class);
+	   ProjectionList pl=Projections.projectionList();
+	   pl.add(Projections.property("fullName"));
+	   pl.add(Projections.property("a.balance"));
+	   pl.add(Projections.groupProperty("fullName"));
+	   criteria.setProjection(pl)
+	   			.createAlias("accounts", "a",Criteria.LEFT_JOIN);
+	   List<Object[]> obj_arr=criteria.list();
+	   for(Object [] objects:obj_arr)
+	   {
+		System.out.println(objects[0]+"-----------------------"+objects[1]);   
+	   }
+	    session.close();
+	    sessionFactory.close();
+	}
+
+}
